@@ -2,7 +2,7 @@
 
 Detects customer **life events** — house move, new baby, new job, wedding — from raw transaction history using a Large Language Model, and maps each event to relevant banking products. Built with an interactive UI.
 
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Shanmukhbysani/life-event-detector/blob/main/life_event_gradio.ipynb)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1mRauenF0R4TpIpITO1nWHg3fLY1dqedQ?usp=sharing)
 
 > Click the badge to run the interactive app in your browser.
 
@@ -42,7 +42,7 @@ Sending real customer data to an external LLM API would breach banking regulatio
 ## How to run
 
 **In Colab (easiest):**
-1. Click the Colab badge above (or upload `life_event_gradio.ipynb`)
+1. Click the Colab badge above to open the notebook
 2. Run the single cell
 3. Paste your free Groq API key when prompted (get one at console.groq.com/keys)
 4. The interactive UI appears in the output — pick a customer and click **Analyse transactions**
